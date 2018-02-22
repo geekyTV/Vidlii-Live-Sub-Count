@@ -16,7 +16,7 @@ $.get("ajax/fetch.php?username="+user_name, function(data) {
 	document.getElementById("avatar").src = "assets/error.png";
 	document.getElementById("username").innerHTML = "";
 	document.getElementById("subs").innerHTML = "";
-	document.getElementById("error").innerHTML = "This user has been banned from Vidlii.";
+	document.getElementById("error").innerHTML = "This user has either deleted their channel or has been banned from VidLii.";
 	} else {
 	document.getElementById("error").innerHTML = "";
 	user_data = data.split("|");
@@ -48,7 +48,7 @@ if (data == "not_found") {
 	document.getElementById("avatar").src = "assets/error.png";
 	document.getElementById("username").innerHTML = "";
 	document.getElementById("subs").innerHTML = "";
-	document.getElementById("error").innerHTML = "This user has been banned from Vidlii.";
+	document.getElementById("error").innerHTML = "This user has either deleted their channel or has been banned from VidLii.";
 	} else {
 	document.getElementById("error").innerHTML = "";
 	user_data = data.split("|");
