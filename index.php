@@ -16,7 +16,7 @@ $user_info = json_decode($output, true);
     <body>
         <div class="header-thing">
             <h1>VidLii Subcount</h1>
-            <p>Made by JonBot415 and GeekyTV. Special thanks to Jan for helping us with the API.</p>
+            <p>Made by JonBot415 and geekyTV. Special thanks to Jan for helping us with the API.</p>
         </div>
         <div class="wrapper">
             <!-- user details n' stuff -->
@@ -34,7 +34,6 @@ $user_info = json_decode($output, true);
                     <button id="submit" type="submit" onclick="set_username()">search</button>
             </div>
         </div>
-        <p style="text-align:right;">back to geekyweirdguy.host</p>
     </body>
 </html>
 
