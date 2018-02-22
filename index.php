@@ -15,8 +15,8 @@ $user_info = json_decode($output, true);
     </head>
     <body>
         <div class="header-thing">
-            <h1>VidLii Subcount by geekyTV</h1>
-            <p>Special thanks to Jan and JonBot for helping me</p>
+            <h1>VidLii Subcount</h1>
+            <p>Made by JonBot415 and GeekyTV. Special thanks to Jan for helping us with the API.</p>
         </div>
         <div class="wrapper">
             <!-- user details n' stuff -->
