@@ -5,13 +5,12 @@ $user_info = json_decode($output, true);
 <html>
     <head>
         <title>VidLii Live Subcount</title>
-        <link rel="stylesheet" href="css/style.css">
 		<script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="animate.css">
+		<link rel="stylesheet" href="assets/style.css">
+		<link rel="stylesheet" href="assets/animate.css">
     </head>
     <body>
         <div class="header-thing">
@@ -37,4 +36,4 @@ $user_info = json_decode($output, true);
     </body>
 </html>
 
-<script src="subcount.js"></script>
+<script src="js/subcount.js"></script>
