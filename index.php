@@ -9,8 +9,8 @@ $user_info = json_decode($output, true);
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="assets/style.css">
-		<link rel="stylesheet" href="assets/animate.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/animate.css">
     </head>
     <body>
         <div class="header-thing">
