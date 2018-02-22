@@ -6,6 +6,8 @@ $user_info = json_decode($output, true);
 
 if ($user_info['r'] == "not_found") {
 	echo "not_found";
+} elseif ($user_info['r'] == "banned") {
+	echo "banned";	
 } else {
 echo $user_info['subscribers']."|".$user_info['avatar']."|".$user_info['displayname'];
 }
