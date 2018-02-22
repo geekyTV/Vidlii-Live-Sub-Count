@@ -1,0 +1,37 @@
+body{
+    margin: 50px;
+    font-family: Arial;
+}
+.header-thing{
+    margin:20px;
+    border-bottom:1px solid black;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+.search{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.user-details>
+h1,
+h2{
+    margin: 0;
+}
+.user-details>img{
+    margin: 0;
+    border: 1px solid black;
+}
+h1,
+h2,
+h3,
+p{
+    margin: 0;
+}
+#error{
+    color: black;
+    padding: 5px;
+}
