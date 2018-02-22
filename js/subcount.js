@@ -12,6 +12,11 @@ $.get("ajax/fetch.php?username="+user_name, function(data) {
 	document.getElementById("username").innerHTML = "";
 	document.getElementById("subs").innerHTML = "";
 	document.getElementById("error").innerHTML = "User does not exist.";
+	} else if (data == "banned") {
+	document.getElementById("avatar").src = "assets/error.png";
+	document.getElementById("username").innerHTML = "";
+	document.getElementById("subs").innerHTML = "";
+	document.getElementById("error").innerHTML = "This user has been banned from Vidlii.";
 	} else {
 	document.getElementById("error").innerHTML = "";
 	user_data = data.split("|");
@@ -39,7 +44,12 @@ if (data == "not_found") {
 	document.getElementById("username").innerHTML = "";
 	document.getElementById("subs").innerHTML = "";
 	document.getElementById("error").innerHTML = "User does not exist.";
-} else {
+	} else if (data == "banned") {
+	document.getElementById("avatar").src = "assets/error.png";
+	document.getElementById("username").innerHTML = "";
+	document.getElementById("subs").innerHTML = "";
+	document.getElementById("error").innerHTML = "This user has been banned from Vidlii.";
+	} else {
 	document.getElementById("error").innerHTML = "";
 	user_data = data.split("|");
 	sub_count = user_data[0];
