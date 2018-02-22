@@ -8,7 +8,7 @@ setInterval(function(){
 $.get("ajax/fetch.php?username="+user_name, function(data) {
 	
 	if (data == "not_found") {
-	document.getElementById("avatar").src = "error.png";
+	document.getElementById("avatar").src = "assets/error.png";
 	document.getElementById("username").innerHTML = "";
 	document.getElementById("subs").innerHTML = "";
 	document.getElementById("error").innerHTML = "User does not exist.";
@@ -35,7 +35,7 @@ user_name = document.getElementById("user").value;
 $.get("ajax/fetch.php?username="+user_name, function(data) {
 	
 if (data == "not_found") {
-	document.getElementById("avatar").src = "error.png";
+	document.getElementById("avatar").src = "assets/error.png";
 	document.getElementById("username").innerHTML = "";
 	document.getElementById("subs").innerHTML = "";
 	document.getElementById("error").innerHTML = "User does not exist.";
