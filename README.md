@@ -1,5 +1,5 @@
 # VidLii Live Sub Counter
-## A live subcount built for VidLii by JonBot415 and geekyTV, with special thanks to Jan.
+## A live subcount built for VidLii by JonBot415 and geekyTV. (Special thanks to Jan)
 ### So... what does it do?
 It gives a live check on how many subscribers a user has.
 
