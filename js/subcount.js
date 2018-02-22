@@ -5,7 +5,7 @@ var user_name = "Vidlii";
 
 setInterval(function(){ 
 
-$.get("fetch.php?username="+user_name, function(data) {
+$.get("ajax/fetch.php?username="+user_name, function(data) {
 	
 	if (data == "not_found") {
 	document.getElementById("avatar").src = "error.png";
@@ -32,7 +32,7 @@ $.get("fetch.php?username="+user_name, function(data) {
 function set_username() {
 
 user_name = document.getElementById("user").value;
-$.get("fetch.php?username="+user_name, function(data) {
+$.get("ajax/fetch.php?username="+user_name, function(data) {
 	
 if (data == "not_found") {
 	document.getElementById("avatar").src = "error.png";
